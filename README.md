@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📋 Prontuário Inteligente com IA
 
-## Getting Started
+Este é o repositório do **Front-End** do sistema de prontuários médicos inteligentes, que utiliza **Inteligência Artificial e Machine Learning** para otimizar a documentação e reduzir a carga administrativa dos profissionais de saúde.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js** – Para um front-end robusto, performático e escalável.
+- **ShadCN UI** – Para componentes acessíveis e modernos.
+- **Tailwind CSS** – Para um design responsivo e altamente customizável.
+- **Axios** – Para comunicação eficiente com a API.
+
+## ✨ Funcionalidades Principais
+
+✅ **Transcrição automática** de consultas médicas em tempo real.
+✅ **Preenchimento inteligente** de prontuários com IA.
+✅ **Interface intuitiva** para médicos e equipes de saúde.
+✅ **Segurança e conformidade** com normas de privacidade de dados.
+✅ **Integração com sistemas hospitalares** existentes.
+
+## 📦 Como Rodar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/oartuu/mediscribe.git
+   ```
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd med-record-app
+   ```
+
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+O projeto estará disponível em **http://localhost:3000** 🚀
+
+## 📌 Estrutura do Projeto
+
+```
+📂 src
+ ┣ 📂 components    # Componentes reutilizáveis (ShadCN UI)
+ ┣ 📂 pages         # Páginas da aplicação
+ ┣ 📂 services      # Comunicação com a API
+ ┣ 📂 styles        # Estilos globais com Tailwind
+ ┣ 📜 layout.tsx    # Layout principal da aplicação
+ ┣ 📜 app.tsx       # Componente raiz
+ ┗ 📜 next.config.js # Configuração do Next.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contribuição
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contribuições são bem-vindas! Siga os passos:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Crie um fork** do repositório.
+2. **Crie uma branch** para sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. **Commit suas alterações:**
+   ```bash
+   git commit -m "Minha nova feature"
+   ```
+4. **Envie para o repositório remoto:**
+   ```bash
+   git push origin minha-feature
+   ```
+5. **Abra um Pull Request!** 🚀
 
-## Learn More
+## 📄 Licença
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto é licenciado sob a **MIT License**. Sinta-se livre para usá-lo e melhorá-lo!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 *Transformando a saúde com IA: menos burocracia, mais tempo para cuidar de vidas!*
